@@ -13,7 +13,7 @@
         因为org.mybatis.spring.mapper.MapperFactoryBean默认会去查找与xxMapper.java相同目录和名称的xxMapper.xml
     -->
     <mappers>
-        <mapper resource="com/whh/cosplay/bean/User.xml"/>
+        <mapper resource="com/whh/cosplay/mapper/UserMapper.xml"/>
     </mappers>
 
 </configuration>  

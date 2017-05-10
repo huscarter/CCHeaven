@@ -4,7 +4,7 @@ package com.whh.cosplay.bean;
  * Created by weiwhite on 5/6/17.
  */
 public class User extends Bean {
-    private Long id;
+    private int id;
     private String name;
     private String nickname;
     private String email;
@@ -13,11 +13,11 @@ public class User extends Bean {
     private String age;
     private String sex;
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

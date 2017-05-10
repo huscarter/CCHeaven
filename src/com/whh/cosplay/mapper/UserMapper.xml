@@ -5,7 +5,7 @@
 	namespace：必须与对应的接口全类名一致
 	id:必须与对应接口的某个对应的方法名一致
  -->
-<mapper namespace="com.whh.cosplay.mapper.UserMapper">
+<mapper namespace="com.whh.cosplay.dao.IUserDao">
 
     <insert id="save" parameterType="User">
 		insert into t_user(user_name,user_age) values(#{userName},#{age})

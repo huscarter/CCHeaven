@@ -2,12 +2,56 @@
   <artifact type="exploded-war" name="CosplayHeaven:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/CosplayHeaven_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="CosplayHeaven/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="CosplayHeaven" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/sql/mysql-connector-java-5.1.7-bin.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/aopalliance.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-tx-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-aop-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-web-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-core-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-jdbc-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-test-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-beans-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-webmvc-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-aspects-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-context-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-expression-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/spring/spring-context-support-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/jstl/jstl.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/jstl/standard-1.1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/log/log4j-1.2.16.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/log/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/mybatis/mybatis-3.2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/mybatis/mybatis-spring-1.2.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/J2EE/servlet/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl/standard-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log/log4j-1.2.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis/mybatis-3.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis/mybatis-spring-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/aopalliance.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-tx-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-aop-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-web-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-core-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-jdbc-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-test-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-beans-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-webmvc-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-aspects-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-context-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-expression-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring/spring-context-support-4.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/sql/mysql-connector-java-5.1.7-bin.jar" />
+        </element>
       </element>
+      <element id="javaee-facet-resources" facet="CosplayHeaven/web/Web" />
     </root>
   </artifact>
 </component>
