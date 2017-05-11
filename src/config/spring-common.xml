@@ -33,7 +33,8 @@
         basePackage:指定sql映射文件/接口所在的包（自动扫描）
     -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.whh.cosplay.mapper"></property>
+        <!--<property name="annotationClass" value="org.springframework.stereotype.Repository"/>-->
+        <property name="basePackage" value="com.whh.cosplay.dao"></property>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
     </bean>
 

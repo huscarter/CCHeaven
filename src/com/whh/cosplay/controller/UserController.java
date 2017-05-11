@@ -1,6 +1,7 @@
 package com.whh.cosplay.controller;
 
 import com.whh.cosplay.bean.User;
+import com.whh.cosplay.service.IUserService;
 import com.whh.cosplay.service.impl.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,7 +19,7 @@ import java.util.List;
 public class UserController extends BaseController {
 
     @Autowired
-    private UserService userService;
+    private IUserService userService;
 
     /**
      * 获取所有用户列表

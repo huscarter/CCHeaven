@@ -7,25 +7,25 @@
  -->
 <mapper namespace="com.whh.cosplay.dao.IUserDao">
 
-    <insert id="save" parameterType="User">
-		insert into t_user(user_name,user_age) values(#{userName},#{age})
-	</insert>
+    <!--<insert id="save" parameterType="User">-->
+    <!--insert into t_user(user_name,user_age) values(#{userName},#{age})-->
+    <!--</insert>-->
 
-    <update id="update" parameterType="User">
-		update t_user set user_name=#{userName},user_age=#{age} where user_id=#{id}
-	</update>
+    <!--<update id="update" parameterType="User">-->
+    <!--update t_user set user_name=#{userName},user_age=#{age} where user_id=#{id}-->
+    <!--</update>-->
 
-    <delete id="delete" parameterType="int">
-		delete from t_user where user_id=#{id}
-	</delete>
+    <!--<delete id="delete" parameterType="int">-->
+    <!--delete from t_user where user_id=#{id}-->
+    <!--</delete>-->
 
-    <!-- mybsits_config中配置的alias类别名,也可直接配置resultType为类路劲 -->
-    <select id="findById" parameterType="int" resultType="User">
-		select user_id id,user_name userName,user_age age from t_user where user_id=#{id}
-	</select>
+    <!--&lt;!&ndash; mybsits_config中配置的alias类别名,也可直接配置resultType为类路劲 &ndash;&gt;-->
+    <!--<select id="findById" parameterType="int" resultType="User">-->
+    <!--select user_id id,user_name userName,user_age age from t_user where user_id=#{id}-->
+    <!--</select>-->
 
     <select id="findAll" resultType="User">
-		select user_id id,user_name userName,user_age age from t_user
+		select id id,name name,age age from tb_user
 	</select>
 
 </mapper>
