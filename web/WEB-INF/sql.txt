@@ -1,6 +1,6 @@
-create datatable cosplay if not exist;
+create database if not exists db_ccheaven;
 
-use cosplay;
+use db_ccheaven;
 
 create table tb_user (
 id int(11) not null primary key auto_increment,
@@ -11,3 +11,6 @@ mobile char(20),
 password char(20),
 age int(4),
 sex int(4));
+
+insert into tb_user (name,nickname,email,mobile,password,age,sex) values("huscarter","whh","huscarter@163.com","15268164235","123456",27,1);
+
