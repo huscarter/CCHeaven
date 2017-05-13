@@ -5,7 +5,7 @@
 
     <!-- 实体类,简称 -设置别名 -->
     <typeAliases>
-        <typeAlias alias="User" type="com.whh.cosplay.bean.User"/>
+        <typeAlias alias="User" type="com.whh.heaven.bean.User"/>
     </typeAliases>
     <!-- 实体接口映射资源 -->
     <!--
@@ -13,7 +13,7 @@
         因为org.mybatis.spring.mapper.MapperFactoryBean默认会去查找与xxMapper.java相同目录和名称的xxMapper.xml
     -->
     <mappers>
-        <mapper resource="com/whh/cosplay/mapper/UserMapper.xml"/>
+        <mapper resource="com/whh/heaven/mapper/UserMapper.xml"/>
     </mappers>
 
 </configuration>  

@@ -1,4 +1,4 @@
-package com.whh.cosplay.dao;
+package com.whh.heaven.dao;
 
 /**
  * @author weiwhite on 5/10/17.

@@ -1,6 +1,6 @@
-package com.whh.cosplay.service;
+package com.whh.heaven.service;
 
-import com.whh.cosplay.bean.User;
+import com.whh.heaven.bean.User;
 
 import java.util.List;
 

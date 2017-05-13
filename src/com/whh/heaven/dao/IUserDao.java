@@ -1,6 +1,6 @@
-package com.whh.cosplay.dao;
+package com.whh.heaven.dao;
 
-import com.whh.cosplay.bean.User;
+import com.whh.heaven.bean.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

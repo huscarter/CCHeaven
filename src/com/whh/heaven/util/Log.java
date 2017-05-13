@@ -1,4 +1,4 @@
-package com.whh.cosplay.util;
+package com.whh.heaven.util;
 
 /**
  * @author weiwhite on 5/10/17.

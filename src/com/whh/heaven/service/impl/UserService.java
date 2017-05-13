@@ -1,8 +1,8 @@
-package com.whh.cosplay.service.impl;
+package com.whh.heaven.service.impl;
 
-import com.whh.cosplay.bean.User;
-import com.whh.cosplay.dao.IUserDao;
-import com.whh.cosplay.service.IUserService;
+import com.whh.heaven.bean.User;
+import com.whh.heaven.dao.IUserDao;
+import com.whh.heaven.service.IUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

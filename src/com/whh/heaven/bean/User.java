@@ -1,4 +1,4 @@
-package com.whh.cosplay.bean;
+package com.whh.heaven.bean;
 
 /**
  * Created by weiwhite on 5/6/17.
