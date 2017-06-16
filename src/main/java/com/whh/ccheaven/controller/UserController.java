@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @author weiwhite on 5/16/17.
- * @description
+ * @description 用户的controller类
  */
 @Controller
 @RequestMapping("/user")
