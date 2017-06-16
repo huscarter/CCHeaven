@@ -7,5 +7,7 @@ import java.io.Serializable;
  * @description
  */
 public class Base implements Serializable{
+
     //
+
 }
