@@ -1,0 +1,10 @@
+
+# ccheaven ignore
+
+.gradle/
+.idea/workspace.xml
+.idea/tasks.xml
+out/
+build/
+*.iml
+.idea/modules/
