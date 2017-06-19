@@ -1,0 +1,51 @@
+/**
+* The css of the index.jsp
+*/
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: #650a07 1px;
+}
+
+#top_wrapper {
+    height: 48px;
+    line-height: 48px;
+    width: 75%;
+    background: #1c1c1c;
+    text-align: right;
+    vertical-align: middle;
+    position: fixed;
+    opacity: 0.75;
+}
+
+.top_wrapper {
+    color: white;
+    font-size: 2.5em;
+    text-underline: none;
+}
+
+#activity_wrapper {
+    height: 200px;
+    background: #fddfdf;
+    border: #18040d 1px;
+}
+
+#navigation_wrapper {
+    height: 56px;
+    background: #b85252;
+    border: #18040d 1px;
+}
+
+#main_wrapper {
+    height: 600px;
+    background: #454545;
+    border: #18040d 1px;
+}
+
+#foot_wrapper {
+    height: 200px;
+    background: #b85252;
+    border: #18040d 1px;
+}
