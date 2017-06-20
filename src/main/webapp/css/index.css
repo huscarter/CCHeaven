@@ -6,9 +6,9 @@ body {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    border: #650a07 1px;
 }
 
+/*-----------------------------------------------------------*/
 #top_wrapper {
     height: 48px;
     line-height: 48px;
@@ -17,35 +17,179 @@ body {
     text-align: right;
     vertical-align: middle;
     position: fixed;
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
-.top_wrapper {
+.top_wrapper a {
     color: white;
-    font-size: 2.5em;
-    text-underline: none;
+    font-size: 0.75em;
+    text-decoration: none;
+    margin-right: 4px;
 }
 
-#activity_wrapper {
-    height: 200px;
-    background: #fddfdf;
-    border: #18040d 1px;
+#activity_wrapper img {
+    height: 240px;
+    width: 100%;
 }
+
+#search_form {
+    position: absolute;
+    right: 12.5%;
+    top: 185px;
+    width: auto;
+}
+
+#search_input {
+    width: 280px;
+    height: 27px;
+    margin: 0;
+    padding: 2px;
+    font-size: 0.8em;
+}
+
+#search_button {
+    width: 70px;
+    height: 27px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    font-size: 0.85em;
+}
+
+/*-----------------------------------------------------------*/
 
 #navigation_wrapper {
-    height: 56px;
-    background: #b85252;
-    border: #18040d 1px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: solid 1px transparent;
+    position: relative;
+    text-align: center;
 }
+
+.nav-menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.nav_item {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 11%;
+    text-align: center;
+}
+
+#navigation_wrapper a {
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------*/
 
 #main_wrapper {
-    height: 600px;
-    background: #454545;
-    border: #18040d 1px;
+    width: 100%;
+    position: relative;
+    text-align: left;
 }
 
+#activity_model {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+#activity_carousel {
+    width: 54%;
+    height: 100%;
+    position: relative;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+#activity_recommend {
+    width: 45%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#activity_recommend .recommend {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+#activity_recommend .recommend .activity {
+    width: 49%;
+    height: 99%;
+    position: relative;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+.model_wrapper {
+
+}
+
+.part_title {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.part_wrapper {
+    width: 65%;
+    display: inline-block;
+}
+
+.part_content {
+    width: 32.5%;
+    height: 150px;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+.rank_wrapper {
+    width: 34%;
+    vertical-align: top;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+.rank_title {
+    color: black;
+    font-size: 1em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+/*-----------------------------------------------------------*/
+
 #foot_wrapper {
-    height: 200px;
-    background: #b85252;
-    border: #18040d 1px;
+    height: 180px;
+    line-height: 180px;
+    vertical-align: middle;
+    text-align: center;
+    border: solid 1px lightgray;
+}
+
+#foot_wrapper a {
+    margin: 0 10px;
+    padding: 0;
+    color: black;
+    position: relative;
+    text-decoration: none;
 }
