@@ -18,13 +18,14 @@ body {
     vertical-align: middle;
     position: fixed;
     opacity: 0.85;
+    z-index: 100;
 }
 
 .top_wrapper a {
     color: white;
     font-size: 0.75em;
     text-decoration: none;
-    margin-right: 4px;
+    margin-right: 8px;
 }
 
 #activity_wrapper img {
@@ -151,7 +152,7 @@ body {
 }
 
 .part_wrapper {
-    width: 65%;
+    width: 69%;
     display: inline-block;
 }
 
@@ -163,7 +164,7 @@ body {
 }
 
 .rank_wrapper {
-    width: 34%;
+    width: 30%;
     vertical-align: top;
     border: solid 1px lightgray;
     display: inline-block;
@@ -174,6 +175,10 @@ body {
     font-size: 1em;
     margin-top: 16px;
     margin-bottom: 8px;
+}
+
+.rank_data li{
+    list-style-type: none;
 }
 
 /*-----------------------------------------------------------*/
