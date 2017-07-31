@@ -12,6 +12,6 @@ import java.util.List;
  */
 @Repository
 @Transactional
-public interface IUserDao extends IBaseDao {
+public interface IListDao extends IBaseDao {
     List<User> findAll();
 }

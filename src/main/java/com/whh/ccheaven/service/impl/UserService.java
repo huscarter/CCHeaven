@@ -1,6 +1,6 @@
 package com.whh.ccheaven.service.impl;
 
-import com.whh.ccheaven.bean.User;
+import com.whh.ccheaven.bean.user.User;
 import com.whh.ccheaven.dao.IUserDao;
 import com.whh.ccheaven.service.IUserService;
 import org.springframework.stereotype.Service;

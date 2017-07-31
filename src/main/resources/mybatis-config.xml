@@ -5,7 +5,7 @@
 
     <!-- 实体类,简称 -设置别名 -->
     <typeAliases>
-        <typeAlias alias="User" type="com.whh.ccheaven.bean.User"/>
+        <typeAlias alias="User" type="com.whh.ccheaven.bean.user.User"/>
     </typeAliases>
     <!-- 实体接口映射资源 -->
     <!--

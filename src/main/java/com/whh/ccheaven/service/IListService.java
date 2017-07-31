@@ -8,6 +8,6 @@ import java.util.List;
  * @author weiwhite on 5/16/17.
  * @description
  */
-public interface IUserService extends IBaseService {
+public interface IListService extends IBaseService {
     List<User> findAll();
 }

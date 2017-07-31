@@ -1,8 +1,10 @@
-package com.whh.ccheaven.bean;
+package com.whh.ccheaven.bean.user;
+
+import com.whh.ccheaven.bean.Base;
 
 /**
  * @author weiwhite on 5/16/17.
- * @description
+ * @description 用户信息实体类
  */
 public class User extends Base {
     private int id;

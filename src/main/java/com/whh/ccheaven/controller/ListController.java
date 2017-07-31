@@ -11,11 +11,11 @@ import java.util.List;
 
 /**
  * @author weiwhite on 5/16/17.
- * @description 用户的controller类
+ * @description 各个列表的controller类
  */
 @Controller
-@RequestMapping("/user")
-public class UserController extends BaseController {
+@RequestMapping("/list")
+public class ListController extends BaseController {
     @Autowired
     private IUserService userService;
 
@@ -25,12 +25,12 @@ public class UserController extends BaseController {
      * @param request
      * @return
      */
-    @RequestMapping("/getAllUser")
+    @RequestMapping("/getComicconList")
     public String getAllUser(HttpServletRequest request) {
 
         List<User> findAll = userService.findAll();
 
         request.setAttribute("userList", findAll);
-        return "user/all_user";
+        return "list/comiccon";
     }
 }

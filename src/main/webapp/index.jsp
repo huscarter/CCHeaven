@@ -69,7 +69,7 @@
             <a href="">三次元</a>
         </li>
         <li class="nav_item">
-            <a href="">漫展</a>
+            <a href="／list／comiccon">漫展</a>
         </li>
         <li class="nav_item">
             <a href="">社团</a>
