@@ -1,6 +1,9 @@
 package com.whh.ccheaven.controller;
 
+import com.whh.ccheaven.bean.list.Comiccon;
+import com.whh.ccheaven.bean.list.Composite;
 import com.whh.ccheaven.bean.user.User;
+import com.whh.ccheaven.service.IListService;
 import com.whh.ccheaven.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,20 +20,35 @@ import java.util.List;
 @RequestMapping("/list")
 public class ListController extends BaseController {
     @Autowired
-    private IUserService userService;
+    private IListService listService;
 
     /**
-     * 获取所有用户列表
+     * 获取漫展列表
      *
      * @param request
      * @return
      */
     @RequestMapping("/getComicconList")
-    public String getAllUser(HttpServletRequest request) {
+    public String getComicconList(HttpServletRequest request) {
 
-        List<User> findAll = userService.findAll();
+        List<Comiccon> findAll = listService.findComicconList();
 
         request.setAttribute("userList", findAll);
         return "list/comiccon";
+    }
+
+    /**
+     * 获取综合列表
+     *
+     * @param request
+     * @return
+     */
+    @RequestMapping("/getCompositeList")
+    public String getCompositeList(HttpServletRequest request) {
+
+        List<Composite> findAll = listService.findCompositeList();
+
+        request.setAttribute("userList", findAll);
+        return "list/composite";
     }
 }
