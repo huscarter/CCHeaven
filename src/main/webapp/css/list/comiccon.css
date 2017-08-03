@@ -1,4 +1,79 @@
 /**
 * The css of the comiccon.jsp
 */
+#activity_model {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
 
+#activity_carousel {
+    width: 54%;
+    height: 100%;
+    position: relative;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+#activity_recommend {
+    width: 45%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#activity_recommend .recommend {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+#activity_recommend .recommend .activity {
+    width: 49%;
+    height: 99%;
+    position: relative;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+
+.model_wrapper {
+
+}
+
+.part_title {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.part_wrapper {
+    width: 69%;
+    display: inline-block;
+}
+
+.part_content {
+    width: 32.5%;
+    height: 150px;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+.rank_wrapper {
+    width: 30%;
+    vertical-align: top;
+    border: solid 1px lightgray;
+    display: inline-block;
+}
+
+.rank_title {
+    color: black;
+    font-size: 1em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.rank_data li {
+    list-style-type: none;
+}
